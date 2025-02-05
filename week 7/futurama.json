@@ -1,0 +1,21 @@
+{
+  "name": "week-7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maksuni2/QHO426.git"
+  },
+  "private": true,
+    "location": "New New York",
+    "population": 3000000,
+    "bots": [
+        {"name": "Bender", "stats": "Alcohol-fueled"},
+        {"name": "Calculon", "stats": "Overdramatic"}
+    ]
+
+}
