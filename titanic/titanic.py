@@ -54,7 +54,7 @@ def display_passengers_per_age_group():
                 else:
                     elderly += 1
         except ValueError:
-            continue  # Пропускаємо некоректні значення
+            continue  
     print(f"children: {children}, adults: {adults}, elderly: {elderly}")
 
 def display_survivors_per_age_group():
@@ -78,7 +78,7 @@ def display_survivors_per_age_group():
                     if survived == 1:
                         elderly_survivors += 1
         except ValueError:
-            continue  # Пропускаємо некоректні значення
+            continue  
     print(f"children: {child_survivors}/{children}, adults: {adult_survivors}/{adults}, elderly: {elderly_survivors}/{elderly}")
 
 def run():
